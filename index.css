@@ -1,32 +1,33 @@
 body{
     background-color: rgb(40, 38, 38);
 }
-#header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 300px;
-    padding: 0 15px;
-    background: #040b14;
+#hero{
+    width: 100%;
+    height: 100vh;
 }
-.nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+#hero h1{
+    margin: 0 0 10px 0;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 52px;
+    color: white;
 }
-.nav-menu li{
-    color: #a8a9b4;
+.d-flex{
+    display: flex;
 }
-#header .profile img{
-    margin: 15px auto;
+.align-items-center{
+    align-items: center;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+section{
+    padding: 60px 0;
+    overflow: hidden;
+}
+section {
     display: block;
-    width: 120px;
-    border: 8px solid #2c2f3f
-}
-.rounded-circle{
-    border-radius: 50%;
-}
-.text-light{
-    color: white
 }
